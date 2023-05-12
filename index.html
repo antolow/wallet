@@ -1,40 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="wrapper">
-        <div class="DIO">
+        <h1 class="title">
+            wallet
+        </h1>
+        <div class="container ">
+            <div class="DIO main">
+                <h3 class="title--dio">
+                    Диаграмма расходов:
+                </h3>
+                 <!-- <div class="FastFood dio">
 
-        </div>
-        <div class="list">
+                </div>
+                <div class="Sport dio">
 
-        </div>
-        <div class="tovarishe">
-            <div class="tovar">
-                <div class="tovarik">
-                    Товар:
-                    <input type="text" placeholder="Наименование">
                 </div>
-                <div class="price">
-                    Цена:
-                    <input type="text" placeholder="0">
+                <div class="Product dio">
+
                 </div>
-                <div class="category">
-                    <select size="3" multiple name="hero[]">
-                        <option disabled>Выберите героя</option>
-                        <option value="Чебурашка">Чебурашка</option>
-                        <option selected value="Крокодил Гена">Крокодил Гена</option>
-                        <option value="Шапокляк">Шапокляк</option>
-                        <option value="Крыса Лариса">Крыса Лариса</option>
-                       </select>
+                <div class="Games dio">
+
+                </div> -->
+            </div>
+                <div class="list main">
+                    <header class="head">
+                        <h3 class="name_head">
+                            Наименование
+                        </h3>
+                        <h3 class="category_head">
+                            Категория
+                        </h3>
+                        <h3 class="price_head">
+                            Цена
+                        </h3>
+                    </header>
+                </div>
+                <div class="tovarishe main">
+                    <div class="tovar">
+                        <div class="tovarik">
+                            Товар:
+                        </div>
+                          <input type="text" placeholder="Наименование">
+                        <div class="price">
+                            Цена:  
+                        </div>
+                        <input type="text" placeholder="0">
+
+                        <div class="category">
+                            Категория:
+                            
+                        </div>
+                        <select name="select">
+                                <option value="value1">Значение 1</option>
+                                <option value="value2" selected>Значение 2</option>
+                                <option value="value3">Значение 3</option>
+                            </select>
+                        <button class="button">Добавить</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
+
 </html>

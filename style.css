@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.wrapper {
+    background-color: black;
+    height: 100vh;
+}
+
+.title {
+    color: white;
+}
+
+.main {
+    background-color: rgb(103, 103, 103);
+    margin: 10px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.head {
+    display: flex;
+   justify-content: space-around;
+   color: aliceblue;
+}
+
+.list {
+    width: 60%;
+}
+
+.DIO {
+    width: 20%;
+}
+
+.tovarishe {
+    width: 20%;
+    padding: 20px;
+}
+
+.title--dio {
+    text-align: center;
+    color: azure;
+}
+
+.tovarik {
+    color: azure;
+}
+
+.price {
+    color: azure;
+}
